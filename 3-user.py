@@ -21,7 +21,7 @@ class User():
         - assigned an unique `id`
         """
         self.id = str(uuid.uuid4())
-        self.__password = ""
+        self.__password = ''
 
     @property
     def password(self):
